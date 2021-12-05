@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id = "first_heading">Password Generator</h1>
+    <div id = "container">
+
+        <div id = "content">
+            <label for = "passans" id = "passsize">Password: </label>
+            <input type ="text" id="passans" name="passans" value =" ">
+            <button id="passbutton">Copy</button>
+            <br><br>
+            <label for ="passwordnum">no of char for password: </label>
+            <select id = "passwordnum"></select>
+            <br><br>
+            <label for = "alphaSmall" class = "checkboxspace">Alphabet Small</label>
+            <input type = "checkbox" class="checkboxx" id = "alphaSmall" name = "alphaSmall">
+            (a,b,c,d,....)
+            <br><br><br>
+            <label for = "alphaBig" class="checkboxspace">Alphabet Big</label>
+            <input type = "checkbox" class="checkboxx" id = "alphaBig" name = "alphaBig">
+            (A,B,C,D,....)
+            <br><br><br>
+            <label for = "numbers" class = "checkboxspace">Numbers</label>
+            <input type = "checkbox" class="checkboxx" id = "numbers" name = "numbers">
+            (1,2,3,4,....)
+            <br><br><br>
+            <label for = "symbols" class = "checkboxspace">Symbols</label>
+            <input type = "checkbox" class="checkboxx" id = "symbols" name = "symbols">
+            (!,@,#,$....)
+            <br><br>
+            <button id = "button">Generate</button>
+        </div>
+    </div>
+    <p id="footer">created by @sri rajan</p>
+</body>
+    <script src = "script.js"></script>
+</html>
