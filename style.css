@@ -18,7 +18,7 @@
 }
 #passans{
     height:30px;
-    width:300px;
+    width:280px;
     font-size:1.1em;
 }
 #passbutton{
@@ -57,8 +57,6 @@
     font-size:1.4em;
     color:blue;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    position: absolute;
-    top:100%;
-    left:0px;
+    margin:35px 20px;
 }
 
